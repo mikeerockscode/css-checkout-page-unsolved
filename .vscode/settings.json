@@ -1,5 +1,16 @@
 {
   "liveServer.settings.port": 5551,
   "liveServer.settings.CustomBrowser": "chrome",
-  "cSpell.words": ["devslopes"]
+  "cSpell.words": [
+    "devslopes"
+  ],
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    "./css",
+    "-p",
+    "test*.py"
+  ],
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true
 }
